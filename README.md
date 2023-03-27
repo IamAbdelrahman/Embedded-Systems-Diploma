@@ -1,26 +1,8 @@
-# Embedded System Diploma - LearnInDepth
-## Powered by / 
-
-### Content:-
-
-### Unit one
-. C Programming
-
-### Unit two
-. Embedded C
-
-### Unit three
-. System Architecture
-
-### Unit four
-. C Project
-
-
-
 # Author: Abdelrahman Kamal
 
 ### Instructor : Eng.Keroles Shenouda
 ### Learn In Depth Online Diploma
+## First Term ##
 __________________________________________________________________
 ## _Unit 1 : Diploma Prerequistes_
 __________________________________________________________________
