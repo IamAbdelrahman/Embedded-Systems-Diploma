@@ -51,8 +51,8 @@ __________________________________________________________________
 | ----- | ------|
 | Guide 1 | C Programming Revision |
 | Guide 2 | Review Embedded C Exam 1 |
-| Guide 3 | FIRST TERM Project 1 |
-| Guide 4 | FIRST TERM Project 2 |
+| Guide 3 | FIRST TERM Project-1 |
+| Guide 4 | FIRST TERM Projec-2 |
 | Guide 5 | Final Exam |
 __________________________________________________________________
 __________________________________________________________________
