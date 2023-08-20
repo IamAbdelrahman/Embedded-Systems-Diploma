@@ -58,5 +58,52 @@ __________________________________________________________________
 __________________________________________________________________
 ## Second Term ##
 __________________________________________________________________
+## _Unit 6 : Microcontroller Architectures_
+| Title | Topic |
+| ----- | ------|
+| Lecture 1 | Microcontroller Fundamentals 1 |
+| Lecture 2 | Microcontroller Fundamentals 2|
+| Lecture 3 | Microcontroller Clocks|
+| Lecture 4 | Microcontroller Interrupts |
+| Section 4 | Microcontroller Interrupts |
 __________________________________________________________________
-
+__________________________________________________________________
+## _Unit 7 : Microcontroller Essential Peripherals_
+| Title | Topic |
+| ----- | ------|
+| Lecture 1 | GPIO 1|
+| Section 1 | GPIO 1|
+| Lecture 2 | GPIO 2|
+| Section 2 | GPIO 2|
+| Lecture 3 | GPIO 3|
+| Section 3 | GPIO 3|
+| Lecture 4 | External Interrupts|
+| Section 4 | EXTI|
+__________________________________________________________________
+__________________________________________________________________
+## _Unit 8 : Microcontroller Interfacing_
+| Title | Topic |
+| ----- | ------|
+| Lecture 1 | Microcontroller IO Electrical Characteristics|
+| Lecture 2 | UART 1|
+| Section 2 | UART 1|
+| Lecture 3 | UART 2|
+| Section 3 | UART 2|
+| Lecture 4 | SPI 1|
+| Section 4 | SPI 1|
+| Lecture 5 | SPI 2|
+| Section 5 | SPI 2|
+| Lecture 6| I2C 1|
+| Section 6| I2C 1|
+| Lecture 7| I2C 2|
+| Section 7| I2C 2|
+__________________________________________________________________
+## _Unit 9 : Microcontroller Timers/ADC_
+| Title | Topic |
+| ----- | ------|
+| Lecture 1| Timer|
+| Section 1| Timer|
+| Lecture 2 | ADC |
+| Section 2 | ADC|
+__________________________________________________________________
+## _Unit 10 : Software Testing and Validation_
