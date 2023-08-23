@@ -1,0 +1,167 @@
+- Symbols for main.o
+	00000008 D const_var
+	00000004 D g_var
+	00000000 T main
+	00000000 D R_ODR
+
+- Displays the header information for main.o
+	Sections:
+	Idx Name          Size      VMA       LMA       File off  Algn
+	  0 .text         00000080  00000000  00000000  00000034  2**2
+	                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+	  1 .data         0000000b  00000000  00000000  000000b4  2**2
+	                  CONTENTS, ALLOC, LOAD, DATA
+	  2 .bss          00000000  00000000  00000000  000000bf  2**0
+	                  ALLOC
+	  3 .debug_info   000001c2  00000000  00000000  000000bf  2**0
+	                  CONTENTS, RELOC, READONLY, DEBUGGING, OCTETS
+	  4 .debug_abbrev 00000107  00000000  00000000  00000281  2**0
+	                  CONTENTS, READONLY, DEBUGGING, OCTETS
+	  5 .debug_loc    00000038  00000000  00000000  00000388  2**0
+	                  CONTENTS, READONLY, DEBUGGING, OCTETS
+	  6 .debug_aranges 00000020  00000000  00000000  000003c0  2**0
+	                  CONTENTS, RELOC, READONLY, DEBUGGING, OCTETS
+	  7 .debug_line   0000014d  00000000  00000000  000003e0  2**0
+	                  CONTENTS, RELOC, READONLY, DEBUGGING, OCTETS
+	  8 .debug_str    0000018f  00000000  00000000  0000052d  2**0
+	                  CONTENTS, READONLY, DEBUGGING, OCTETS
+	  9 .comment      0000004a  00000000  00000000  000006bc  2**0
+	                  CONTENTS, READONLY
+	 10 .debug_frame  0000002c  00000000  00000000  00000708  2**2
+	                  CONTENTS, RELOC, READONLY, DEBUGGING, OCTETS
+	 11 .ARM.attributes 0000002d  00000000  00000000  00000734  2**0
+	                  CONTENTS, READONLY
+
+- Displays the symbol table for main.o
+	Section Headers:
+	  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+	  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+	  [ 1] .text             PROGBITS        00000000 000034 000080 00  AX  0   0  4
+	  [ 2] .rel.text         REL             00000000 0008e0 000008 08   I 18   1  4
+	  [ 3] .data             PROGBITS        00000000 0000b4 00000b 00  WA  0   0  4
+	  [ 4] .bss              NOBITS          00000000 0000bf 000000 00  WA  0   0  1
+	  [ 5] .debug_info       PROGBITS        00000000 0000bf 0001c2 00      0   0  1
+	  [ 6] .rel.debug_info   REL             00000000 0008e8 000130 08   I 18   5  4
+	  [ 7] .debug_abbrev     PROGBITS        00000000 000281 000107 00      0   0  1
+	  [ 8] .debug_loc        PROGBITS        00000000 000388 000038 00      0   0  1
+	  [ 9] .debug_aranges    PROGBITS        00000000 0003c0 000020 00      0   0  1
+	  [10] .rel.debug_a[...] REL             00000000 000a18 000010 08   I 18   9  4
+	  [11] .debug_line       PROGBITS        00000000 0003e0 00014d 00      0   0  1
+	  [12] .rel.debug_line   REL             00000000 000a28 000008 08   I 18  11  4
+	  [13] .debug_str        PROGBITS        00000000 00052d 00018f 01  MS  0   0  1
+	  [14] .comment          PROGBITS        00000000 0006bc 00004a 01  MS  0   0  1
+	  [15] .debug_frame      PROGBITS        00000000 000708 00002c 00      0   0  4
+	  [16] .rel.debug_frame  REL             00000000 000a30 000010 08   I 18  15  4
+	  [17] .ARM.attributes   ARM_ATTRIBUTES  00000000 000734 00002d 00      0   0  1
+	  [18] .symtab           SYMTAB          00000000 000764 000150 10     19  17  4
+	  [19] .strtab           STRTAB          00000000 0008b4 000029 00      0   0  1
+	  [20] .shstrtab         STRTAB          00000000 000a40 0000b1 00      0   0  1
+
+
+
+- Symbols for startup.o
+	    U main
+00000000 t _reset
+00000006 t Vector_Handler
+
+- Displays the header information for startup.o
+	Sections:
+	Idx Name          Size      VMA       LMA       File off  Algn
+	  0 .text         0000000a  00000000  00000000  00000034  2**1
+	                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+	  1 .data         00000000  00000000  00000000  0000003e  2**0
+	                  CONTENTS, ALLOC, LOAD, DATA
+	  2 .bss          00000000  00000000  00000000  0000003e  2**0
+	                  ALLOC
+	  3 .vectors      0000001c  00000000  00000000  0000003e  2**0
+	                  CONTENTS, RELOC, READONLY
+	  4 .debug_line   0000003b  00000000  00000000  0000005a  2**0
+	                  CONTENTS, RELOC, READONLY, DEBUGGING, OCTETS
+	  5 .debug_info   00000026  00000000  00000000  00000095  2**0
+	                  CONTENTS, RELOC, READONLY, DEBUGGING, OCTETS
+	  6 .debug_abbrev 00000014  00000000  00000000  000000bb  2**0
+	                  CONTENTS, READONLY, DEBUGGING, OCTETS
+	  7 .debug_aranges 00000020  00000000  00000000  000000d0  2**3
+	                  CONTENTS, RELOC, READONLY, DEBUGGING, OCTETS
+	  8 .debug_str    00000058  00000000  00000000  000000f0  2**0
+	                  CONTENTS, READONLY, DEBUGGING, OCTETS
+	  9 .ARM.attributes 00000021  00000000  00000000  00000148  2**0
+
+- Displays the symbol table for startup.o
+	Section Headers:
+	  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+	  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+	  [ 1] .text             PROGBITS        00000000 000034 00000a 00  AX  0   0  2
+	  [ 2] .rel.text         REL             00000000 00027c 000008 08   I 16   1  4
+	  [ 3] .data             PROGBITS        00000000 00003e 000000 00  WA  0   0  1
+	  [ 4] .bss              NOBITS          00000000 00003e 000000 00  WA  0   0  1
+	  [ 5] .vectors          PROGBITS        00000000 00003e 00001c 00      0   0  1
+	  [ 6] .rel.vectors      REL             00000000 000284 000030 08   I 16   5  4
+	  [ 7] .debug_line       PROGBITS        00000000 00005a 00003b 00      0   0  1
+	  [ 8] .rel.debug_line   REL             00000000 0002b4 000008 08   I 16   7  4
+	  [ 9] .debug_info       PROGBITS        00000000 000095 000026 00      0   0  1
+	  [10] .rel.debug_info   REL             00000000 0002bc 000038 08   I 16   9  4
+	  [11] .debug_abbrev     PROGBITS        00000000 0000bb 000014 00      0   0  1
+	  [12] .debug_aranges    PROGBITS        00000000 0000d0 000020 00      0   0  8
+	  [13] .rel.debug_a[...] REL             00000000 0002f4 000010 08   I 16  12  4
+	  [14] .debug_str        PROGBITS        00000000 0000f0 000058 01  MS  0   0  1
+	  [15] .ARM.attributes   ARM_ATTRIBUTES  00000000 000148 000021 00      0   0  1
+	  [16] .symtab           SYMTAB          00000000 00016c 0000f0 10     17  14  4
+	  [17] .strtab           STRTAB          00000000 00025c 00001f 00      0   0  1
+	  [18] .shstrtab         STRTAB          00000000 000304 000099 00      0   0  1
+
+- Lists Symbols for learn-in-depth_cortex_m3.elf (executable file)
+	080000d4 D const_var
+	080000d0 D g_var
+	08000038 T main
+	080000b8 t _reset
+	080000c2 t _reset
+	         U reset
+	080000cc D R_ODR
+	080000be t Vector_Handler
+	080000c8 t Vector_Handler
+
+- Displays the header information for learn-in-depth_cortex_m3.elf
+	Sections:
+	Idx Name          Size      VMA       LMA       File off  Algn
+	  0 .text         000000cc  08000000  08000000  00010000  2**2
+	                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+	  1 .data         0000000b  080000cc  080000cc  000100cc  2**2
+	                  CONTENTS, ALLOC, LOAD, DATA
+	  2 .debug_info   0000020e  00000000  00000000  000100d7  2**0
+	                  CONTENTS, READONLY, DEBUGGING, OCTETS
+	  3 .debug_abbrev 0000012f  00000000  00000000  000102e5  2**0
+	                  CONTENTS, READONLY, DEBUGGING, OCTETS
+	  4 .debug_loc    00000038  00000000  00000000  00010414  2**0
+	                  CONTENTS, READONLY, DEBUGGING, OCTETS
+	  5 .debug_aranges 00000060  00000000  00000000  00010450  2**3
+	                  CONTENTS, READONLY, DEBUGGING, OCTETS
+	  6 .debug_line   000001c3  00000000  00000000  000104b0  2**0
+	                  CONTENTS, READONLY, DEBUGGING, OCTETS
+	  7 .debug_str    00000165  00000000  00000000  00010673  2**0
+	                  CONTENTS, READONLY, DEBUGGING, OCTETS
+	  8 .comment      00000049  00000000  00000000  000107d8  2**0
+	                  CONTENTS, READONLY
+	  9 .ARM.attributes 0000002b  00000000  00000000  00010821  2**0
+	                  CONTENTS, READONLY
+	 10 .debug_frame  0000002c  00000000  00000000  0001084c  2**2
+	                  CONTENTS, READONLY, DEBUGGING, OCTETS
+
+- Displays the symbol table for learn-in-depth_cortex_m3.elf
+	Section Headers:
+	  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+	  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+	  [ 1] .text             PROGBITS        08000000 010000 0000cc 00  AX  0   0  4
+	  [ 2] .data             PROGBITS        080000cc 0100cc 00000b 00  WA  0   0  4
+	  [ 3] .debug_info       PROGBITS        00000000 0100d7 00020e 00      0   0  1
+	  [ 4] .debug_abbrev     PROGBITS        00000000 0102e5 00012f 00      0   0  1
+	  [ 5] .debug_loc        PROGBITS        00000000 010414 000038 00      0   0  1
+	  [ 6] .debug_aranges    PROGBITS        00000000 010450 000060 00      0   0  8
+	  [ 7] .debug_line       PROGBITS        00000000 0104b0 0001c3 00      0   0  1
+	  [ 8] .debug_str        PROGBITS        00000000 010673 000165 01  MS  0   0  1
+	  [ 9] .comment          PROGBITS        00000000 0107d8 000049 01  MS  0   0  1
+	  [10] .ARM.attributes   ARM_ATTRIBUTES  00000000 010821 00002b 00      0   0  1
+	  [11] .debug_frame      PROGBITS        00000000 01084c 00002c 00      0   0  4
+	  [12] .symtab           SYMTAB          00000000 010878 0001f0 10     13  26  4
+	  [13] .strtab           STRTAB          00000000 010a68 000049 00      0   0  1
+	  [14] .shstrtab         STRTAB          00000000 010ab1 000098 00      0   0  1

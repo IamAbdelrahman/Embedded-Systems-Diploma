@@ -1,0 +1,131 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+bss_var             0x1               main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000008000000 0x0000000000020000 xr
+SRAM             0x0000000020000000 0x0000000000005000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.text           0x0000000008000000      0x15c
+ *(.vectors*)
+ .vectors       0x0000000008000000       0x10 Startup.o
+                0x0000000008000000                vectors
+ *(.text*)
+ .text          0x0000000008000010       0xc0 main.o
+                0x0000000008000010                NMI_Handler
+                0x000000000800001c                Bus_Fault
+                0x0000000008000028                main
+                0x0000000008000070                ledON
+                0x000000000800008c                ledOFF
+                0x00000000080000a8                delay
+ .text          0x00000000080000d0       0x8c Startup.o
+                0x00000000080000d0                Default_Handler
+                0x00000000080000dc                Reset_Handler
+ *(.rodata*)
+                0x000000000800015c                _E_TEXT = .
+
+.glue_7         0x000000000800015c        0x0
+ .glue_7        0x000000000800015c        0x0 linker stubs
+
+.glue_7t        0x000000000800015c        0x0
+ .glue_7t       0x000000000800015c        0x0 linker stubs
+
+.vfp11_veneer   0x000000000800015c        0x0
+ .vfp11_veneer  0x000000000800015c        0x0 linker stubs
+
+.v4_bx          0x000000000800015c        0x0
+ .v4_bx         0x000000000800015c        0x0 linker stubs
+
+.iplt           0x000000000800015c        0x0
+ .iplt          0x000000000800015c        0x0 main.o
+
+.rel.dyn        0x000000000800015c        0x0
+ .rel.iplt      0x000000000800015c        0x0 main.o
+
+.data           0x0000000020000000        0xc load address 0x000000000800015c
+                0x0000000020000000                _S_DATA = .
+ *(.data*)
+ .data          0x0000000020000000        0xb main.o
+                0x0000000020000000                R_ODR
+                0x0000000020000004                g_var
+                0x0000000020000008                const_var
+ .data          0x000000002000000b        0x0 Startup.o
+                0x000000002000000c                . = ALIGN (0x4)
+ *fill*         0x000000002000000b        0x1 
+                0x000000002000000c                _E_DATA = .
+
+.igot.plt       0x000000002000000c        0x0 load address 0x0000000008000168
+ .igot.plt      0x000000002000000c        0x0 main.o
+
+.bss            0x000000002000000c     0x1004 load address 0x0000000008000168
+                0x000000002000000c                _S_BSS = .
+ *(.bss*)
+ .bss           0x000000002000000c        0x0 main.o
+ .bss           0x000000002000000c        0x0 Startup.o
+                0x000000002000000c                . = ALIGN (0x4)
+ *(COMMON)
+ COMMON         0x000000002000000c        0x1 main.o
+                0x000000002000000c                bss_var
+                0x0000000020000010                . = ALIGN (0x4)
+ *fill*         0x000000002000000d        0x3 
+                0x0000000020000010                _E_BSS = .
+                0x0000000020000010                . = ALIGN (0x4)
+                0x0000000020001010                . = (. + 0x1000)
+ *fill*         0x0000000020000010     0x1000 
+                0x0000000020001010                _stack_top = .
+LOAD main.o
+LOAD Startup.o
+OUTPUT(Learn-in-depth_cortex_m3.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000      0x3d3
+ .debug_info    0x0000000000000000      0x23d main.o
+ .debug_info    0x000000000000023d      0x196 Startup.o
+
+.debug_abbrev   0x0000000000000000      0x230
+ .debug_abbrev  0x0000000000000000      0x14a main.o
+ .debug_abbrev  0x000000000000014a       0xe6 Startup.o
+
+.debug_loc      0x0000000000000000      0x214
+ .debug_loc     0x0000000000000000      0x198 main.o
+ .debug_loc     0x0000000000000198       0x7c Startup.o
+
+.debug_aranges  0x0000000000000000       0x40
+ .debug_aranges
+                0x0000000000000000       0x20 main.o
+ .debug_aranges
+                0x0000000000000020       0x20 Startup.o
+
+.debug_line     0x0000000000000000      0x1c6
+ .debug_line    0x0000000000000000       0xdb main.o
+ .debug_line    0x00000000000000db       0xeb Startup.o
+
+.debug_str      0x0000000000000000      0x215
+ .debug_str     0x0000000000000000      0x195 main.o
+                                        0x1d7 (size before relaxing)
+ .debug_str     0x0000000000000195       0x80 Startup.o
+                                        0x1d3 (size before relaxing)
+
+.comment        0x0000000000000000       0x59
+ .comment       0x0000000000000000       0x59 main.o
+                                         0x5a (size before relaxing)
+ .comment       0x0000000000000059       0x5a Startup.o
+
+.ARM.attributes
+                0x0000000000000000       0x2d
+ .ARM.attributes
+                0x0000000000000000       0x2d main.o
+ .ARM.attributes
+                0x000000000000002d       0x2d Startup.o
+
+.debug_frame    0x0000000000000000      0x124
+ .debug_frame   0x0000000000000000       0xd4 main.o
+ .debug_frame   0x00000000000000d4       0x50 Startup.o
