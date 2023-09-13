@@ -22,20 +22,20 @@ int main(void) {
         printf("Front element is %u\n", item);
     }
 
-    printf("Traverse Stack:-\n");
+    printf("Traverse queue:-\n");
     TraverseQueue(&Uart_Lifo, Display);
 
     ClearQueue(&Uart_Lifo);
 
-    printf("Traverse Stack:-\n");
+    printf("Traverse queue:-\n");
     TraverseQueue(&Uart_Lifo, Display);
     return 0;
 }
 
 /**
- * @brief  Displaying an element of the stack
+ * @brief  Displaying an element of the queue
  *  
- *  This function is used to print an element of the stack
+ *  This function is used to print an element of the queue
  *  using the printf() function with a specifier that's known
  *  to only the user level who decides on the QUEUEENTRY.
 
