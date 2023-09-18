@@ -72,7 +72,7 @@ int main(void)
  *  This function is used to print an element of the list
  *  using the PRINT() function.
 
- * @param PStudent: It a pointer to struct student data
+ * @param PStudent: It is a pointer to struct student data
  *
  * @return It returns nothing
  */
