@@ -3,8 +3,6 @@ List_t gFirstStudent = {0};
 void Display(LISTENTRY *);
 int main(void)
 {
-    LISTENTRY tempStudent;
-    LISTENTRY replaceStudent = {4, "Ahmed", 180};
     initializeList(&gFirstStudent);
     int order = 0;
     while (1)
@@ -12,12 +10,16 @@ int main(void)
         PRINT("\n\t ====================== ");
         PRINT("\n\t Choose one of the following options:");
         PRINT("\n\t 1: Add Student ");
-        PRINT("\n\t 2: Delet Student with ID ");
+        PRINT("\n\t 2: Delete Student with ID ");
         PRINT("\n\t 3: Delete Student with Position ");
         PRINT("\n\t 4: Delete All ");
         PRINT("\n\t 5: Replace Student");
         PRINT("\n\t 6: View Students ");
         PRINT("\n\t 7: View Size ");
+        PRINT("\n\t 8: Reverse Students ");
+        PRINT("\n\t 9: Display Student with Position ");
+        PRINT("\n\t 10: Display Student with Position from the End ");
+        PRINT("\n\t 11: Display the Middle Student ");
         PRINT("\n\t  : ");
 
         scanf("%d", &order);
@@ -36,7 +38,7 @@ int main(void)
             DestroyList(&gFirstStudent);
             break;
         case 5:
-            ReplaceList(&gFirstStudent);
+            ReplaceList(&gFirstStudent, Display);
             break;
         case 6:
             TraverseList(&gFirstStudent, Display);
@@ -45,10 +47,16 @@ int main(void)
             PRINT("Size of the list is %d\n", ListSize(&gFirstStudent));
             break;
         case 8:
-            RetrieveList(&gFirstStudent);
+            ReverseList(&gFirstStudent);
             break;
         case 9:
-            RetrieveListFromEnd(&gFirstStudent);
+            RetrieveList(&gFirstStudent, Display);
+            break;
+        case 10:
+            RetrieveListFromEnd(&gFirstStudent, Display);
+            break;
+        case 11:
+            MiddleList(&gFirstStudent, Display);
             break;
         default:
             break;
@@ -73,5 +81,5 @@ void Display(LISTENTRY *PStudent)
 {
     PRINT("\n \t ID:%d ", PStudent->ID);
     PRINT("\n \t Name:%s ", PStudent->name);
-    PRINT("\n \t Height:%f cm ", PStudent->height);
+    PRINT("\n \t Height:%.2f cm ", PStudent->height);
 }
