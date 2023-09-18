@@ -67,13 +67,12 @@ int main(void)
 }
 
 /**
- * @brief  Displaying an element of the stack
+ * @brief  Displaying elements.
  *
- *  This function is used to print an element of the stack
- *  using the PRINT() function with a specifier that's known
- *  to only the user level who decides on the STACKENTRY.
+ *  This function is used to print an element of the list
+ *  using the PRINT() function.
 
- * @param  e: It takes an element of a data type of STACKENTRY.
+ * @param PStudent: It a pointer to struct student data
  *
  * @return It returns nothing
  */
