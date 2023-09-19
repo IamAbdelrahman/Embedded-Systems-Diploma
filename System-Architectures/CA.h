@@ -1,18 +1,16 @@
+#ifndef CA_H_
+#define CA_H_
 #include "State.h"
-#include "stdio.h"
-#include "stdlib.h"
-#include "time.h"
-// Define States
-typedef enum state {
+
+typedef enum CA_state
+{
 	CA_WAITING,
 	CA_MOVING
-}CA_STATE;
+} CA_STATE;
 
-// Decalre state functions CA
 State_define(CA_Waiting);
 State_define(CA_Moving);
 
-// Global pointer to function
-extern void (*CA_state) ();
+extern void (*CA_state)();
 
-int generate_random_distance(int, int, int);
+#endif // !CA_H_
