@@ -1,6 +1,6 @@
 #ifndef _STATE_H_
 #define _STATE_H_
-#include "State.h"
+
 #include "stdio.h"
 #include "stdlib.h"
 #include "time.h"
