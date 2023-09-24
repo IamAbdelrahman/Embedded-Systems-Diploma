@@ -22,7 +22,7 @@ ALARM_STATE_t ledInit()
 
 ALARM_STATE_t ledOn(vuint8_t portName, vuint8_t pinNumber)
 {
-    if (gpioWritePin(portName, pinNumber, HIGH) == GPIO_STATE_WRITE)
+    if (gpioWritePin(portName, pinNumber, LOW) == GPIO_STATE_WRITE)
     {
         return ALARM_STATE_ON;
     }
@@ -32,7 +32,7 @@ ALARM_STATE_t ledOn(vuint8_t portName, vuint8_t pinNumber)
 
 ALARM_STATE_t ledOff(vuint8_t portName, vuint8_t pinNumber)
 {
-    if (gpioWritePin(portName, pinNumber, LOW) == GPIO_STATE_WRITE)
+    if (gpioWritePin(portName, pinNumber, HIGH) == GPIO_STATE_WRITE)
     {
         return ALARM_STATE_OFF;
     }
