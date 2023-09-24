@@ -2,7 +2,7 @@
  * Copyright (C) 2023 by Abdelrahman Kamal - Learn-In-Depth Diploma
  *****************************************************************************/
 /**
- * @file APP.h
+ * @file APP.c
  *
  * Source file is containing the functions' implementation
  * for the application layer.
