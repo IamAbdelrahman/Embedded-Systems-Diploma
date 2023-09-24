@@ -23,7 +23,7 @@ The Pressure Control System is designed for monitoring and controlling pressure 
 ## Prerequisites
 ### Hardware Requirements 
 - STM32 Microcontroller
-- 8 Switch Buttons
+- 8 Button Switches
 - 1 LED
 ### Software Requirements
 - Proteus Simulation
