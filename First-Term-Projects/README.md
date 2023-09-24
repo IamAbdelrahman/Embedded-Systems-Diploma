@@ -17,7 +17,7 @@ The Pressure Control System is designed for monitoring and controlling pressure 
 
 - Real-time monitoring of pressure values.
 - Alarm activation when pressure exceeds 20 bars.
-- Automatic alarm deactivation after 60 seconds.
+- Automatic alarm deactivation after 60 seconds and if the pressure becomes below 20 bars.
 - User-friendly interface.
 
 ## Prerequisites
