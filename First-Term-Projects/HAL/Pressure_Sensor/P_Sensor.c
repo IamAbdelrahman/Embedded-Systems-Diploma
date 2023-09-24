@@ -14,7 +14,7 @@
 
 void Delay(vuint32_t Period)
 {
-	vuint16_t Timer = 0;
+	vuint32_t Timer = 0;
 	for (; Timer <= Period; Timer++)
 		;
 }
