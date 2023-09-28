@@ -1,0 +1,31 @@
+DC_init
+US_init
+Waiting State : distance = 0 speed = 0
+speed = 0
+US_Busy State: distance = 0 
+US--------distance = 50-------> CA 
+Busy State : speed = 0
+Waiting State : distance = 50 speed = 0
+speed = 0
+US_Busy State: distance = 50 
+US--------distance = 47-------> CA 
+Busy State : speed = 0
+Waiting State : distance = 47 speed = 0
+speed = 0
+US_Busy State: distance = 47 
+US--------distance = 53-------> CA 
+Busy State : speed = 0
+Moving State : distance = 53 speed = 0
+speed = 50
+US_Busy State: distance = 53 
+US--------distance = 55-------> CA 
+Busy State : speed = 50
+Moving State : distance = 55 speed = 50
+speed = 50
+US_Busy State: distance = 55 
+US--------distance = 54-------> CA 
+Busy State : speed = 50
+Moving State : distance = 54 speed = 50
+speed = 50
+US_Busy State: distance = 54 
+US--------distance = 49-------> CA 
