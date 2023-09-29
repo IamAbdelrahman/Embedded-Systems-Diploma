@@ -30,7 +30,7 @@ The "Students Management System Using Queue" is a program designed to manage stu
 
 ### Software Requirements
 - Visual Studio CodeIDE
-- GNU Arm Embedded Toolchain
+- GNU GCC Toolchain
 - Makefile
 
 ## Contact Information
