@@ -2,7 +2,7 @@
 
 ### Instructor : Eng.Keroles Shenouda
 ### Learn In Depth Online Diploma
-## First Term - C Basics Labs and Assignments
+## First Term - C Functions Labs and Assignments
 __________________________________________________________________
 
 
