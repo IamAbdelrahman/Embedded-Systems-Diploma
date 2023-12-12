@@ -1,4 +1,4 @@
-# Unit 2: C Preprocessors Labs and Assignments
+# Unit 2: C Preprocessors
 
 ## Labs:
 
