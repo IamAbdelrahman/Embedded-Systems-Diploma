@@ -2,7 +2,7 @@
 
 ## Labs:
 
-. Lab1: Calculate the execution time of a program.
+. Lab1: Calculate the execution time of a program using c/python.
 
 . Lab2-3-4: Define a macro.
 
