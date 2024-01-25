@@ -16,7 +16,7 @@
 #include "Macros.h"
 #include "Platform_Types.h"
 // just for testing in c
-uint32_t volatile G_GPIO_ODR_variable[4] = 0;
+uint32_t volatile G_GPIO_ODR_variable[4] = {0};
 #define GPIO_B_ADR	&G_GPIO_ODR_variable[0]
 
 #define _IO volatile
