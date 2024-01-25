@@ -32,7 +32,7 @@ typedef struct sgpio{
 int main(void)
 {
 	GPIOB->ODR |= 1 << 16;
-	printf("0x%x\n", G_GPIO_ODR_variable);
+	printf("0x%x\n", G_GPIO_ODR_variable[1]);
 	return 0;
 }
 
