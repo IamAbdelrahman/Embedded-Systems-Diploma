@@ -36,6 +36,7 @@ void APP_Init(void) {
 	Clock_Init();
 	Gpio_Init(Gpio_ConfigGet());
 }
+
 /**********************************************************************
  * Function :APP_Start()
  *
@@ -57,6 +58,4 @@ void APP_Start(void) {
 		LED_Toggle(PORTB, PIN1);
 		while((BUTTON_Read(PORTA, PIN1)) == LOW);	// single pressing
 	}
-	for (int i = 0; i < 5000; i++);
-
 }
