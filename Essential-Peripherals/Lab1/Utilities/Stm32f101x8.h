@@ -3,7 +3,7 @@
  *****************************************************************************/
 /**
  * @file STM32f101x8.h
- * @brief This header file Header specifies the MCU device header
+ * @brief This header file Header specifies the MCU/SOC device header
  *
  * The file defines generic macros and base addresses for memories, peripheral registers
  * and bus peripheral

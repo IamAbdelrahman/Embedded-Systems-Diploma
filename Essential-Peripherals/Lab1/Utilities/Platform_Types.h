@@ -1,5 +1,5 @@
 /******************************************************************************
- * Copyright (C) 2023 by Abdelrahman Kamal - Learn-In-Depth Diploma
+ * Copyright (C) 2024 by Abdelrahman Kamal - Learn-In-Depth Diploma
  *****************************************************************************/
 /**
  * @file Platform_Types.h
