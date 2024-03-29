@@ -376,9 +376,9 @@ void Gpio_PinWrite(GpioX_t Port, GpioPin_t Pin, PinState_t State) {
  **********************************************************************/
 void Gpio_Reset (GpioX_t Port) {
 	*(ConfigLow[Port]) 	= 	0x44444444;
-	*(ConfigHigh[Port]) = 	0x44444444;
+	*(ConfigHigh[Port]) 	= 	0x44444444;
 	*(DataOut[Port]) 	= 	0x00000000;
-	*(Reset[Port]) 		= 	0x00000000;
+	*(Reset[Port]) 	= 	0x00000000;
 	*(SetReset[Port]) 	= 	0x00000000;
 	*(Lock[Port]) 		= 	0x00000000;
 }
