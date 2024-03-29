@@ -15,17 +15,8 @@
 #include "GPIO.h"
 
 /**********************************************************************
- * Module Variable Definitions
- **********************************************************************/
-extern vuint32_t ConfigSize;
-GPIO_t *const Gpiox[NUMBER_OF_PORTS] = {GPIOA, GPIOB};
-RCC_t *const pRCC = RCC;
-
-/**********************************************************************
  * Preprocessor Macros
  **********************************************************************/
-#define NUMBER_OF_USED_PINS				(4U)	/** According to the application **/
-
 //-*-*-*-*-*-*-*-*-*-*-*-
 //clock enable Macros:
 //-*-*-*-*-*-*-*-*-*-*-*
@@ -33,6 +24,13 @@ RCC_t *const pRCC = RCC;
 #define RCC_GPIOB_CLK_EN()	(SET_BIT(pRCC->APB2ENR, 3))
 #define RCC_GPIOC_CLK_EN()	(SET_BIT(pRCC->APB2ENR, 4))
 #define RCC_GPIOD_CLK_EN()	(SET_BIT(pRCC->APB2ENR, 5))
+
+/**********************************************************************
+ * Module Variable Definitions
+ **********************************************************************/
+extern vuint32_t ConfigSize;
+GPIO_t *const Gpiox[NUMBER_OF_PORTS] = {GPIOA, GPIOB};
+RCC_t *const pRCC = RCC;
 
 /**
  * Defines a table of pointers to the peripheral input register on the
@@ -84,6 +82,9 @@ static TYPE volatile *const Lock[NUMBER_OF_PORTS] = { (TYPE*) &Gpiox[0]->LCKR,
 		(TYPE*) &Gpiox[1]->LCKR};
 
 /**********************************************************************
+ * Function Definitions
+ **********************************************************************/
+/**********************************************************************
  * Function : Clock_Init()
  *
  *  Description:
@@ -95,9 +96,7 @@ void Clock_Init() {
 	RCC_GPIOA_CLK_EN();
 	RCC_GPIOB_CLK_EN();
 }
-/**********************************************************************
- * Function Definitions
- **********************************************************************/
+
 /*********************************************************************
  * Function : Get_CRLH_Position()
  *
