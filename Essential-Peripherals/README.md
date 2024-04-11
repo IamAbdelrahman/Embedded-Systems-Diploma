@@ -8,4 +8,5 @@
 
 
 ### Assignment1:
-	- Writing the DIO driver of ATmega32 MCU to toggle 3 LEDs on sequential way, then start a tick by Buzzer.
+	- Writing the DIO driver of ATmega32 MCU to toggle 3 LEDs on sequential 
+	 way,then start a tick by Buzzer.
