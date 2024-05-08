@@ -13,3 +13,7 @@
 
 ### Lab2:
 	- Using buttons to toggle LEDs and turn on a Buzzer.
+
+### Lab3:
+	- Using 7-SEG-Decoder for multiplexing between two 7-SEGs to count
+	from 1:99.
