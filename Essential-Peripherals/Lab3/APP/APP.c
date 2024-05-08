@@ -25,8 +25,7 @@
  *
  * Description:
  *
- * This function is used to initialize the application of toggling leds
- * in a result of pressing buttons all connected to the MCU's pins.
+ * This function is used to initialize the application.
  *
  * PRE-CONDITION: The MCAL and HAL are configured and initialized
  *
