@@ -18,4 +18,4 @@
 	- Using 7-SEG-Decoder for multiplexing between two 7-SEGs to count
 	from 1:99.
 
-[AK](https://www.youtube.com/watch?v=DEmO758Llbc&ab_channel=DiscoveryEducationUK)
+
