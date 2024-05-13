@@ -1,6 +1,6 @@
 # Microcontroller Hardware Peripherals Course:
 
-## GPIO\
+## GPIO
 
 ### Lab1: 
 	- Using the BluePill development board to toggle leds as a result
@@ -18,4 +18,6 @@
 	- Using 7-SEG-Decoder for multiplexing between two 7-SEGs to count
 	from 1:99.
 
-
+### Lab4:
+	- LCD Driver on ATmega32 MCU
+	- Keypad Driver on ATmega32 MCU
