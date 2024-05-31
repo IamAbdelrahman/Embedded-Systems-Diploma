@@ -25,7 +25,6 @@ const ST_DIO_t *const DIOx[NUMBER_OF_PORTS] = {DIOA, DIOB};
  */
 TYPE volatile *Data[NUMBER_OF_PORTS];
 TYPE volatile *DataDir[NUMBER_OF_PORTS];
-TYPE volatile *DataIn[NUMBER_OF_PORTS];
 
 /**********************************************************************
  * Function Definitions
@@ -47,7 +46,6 @@ void initializeDataArrays() {
   for (int i = 0; i < NUMBER_OF_PORTS; ++i) {
     Data[i] = (TYPE *)&DIOx[i]->PORT;
     DataDir[i] = (TYPE *)&DIOx[i]->DDR;
-    DataIn[i] = (TYPE *)&DIOx[i]->PIN;
   }
 }
 
