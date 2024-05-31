@@ -24,7 +24,7 @@
 
 ### Lab5:
 	- Write a "Learn in depth" message on the LCD
-	using ATmega32 and STM32 MCUs
+	using ATmega32
 
 ### Lab6:
 	- LCD Driver on STM32 MCU
