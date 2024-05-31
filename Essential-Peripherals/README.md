@@ -21,3 +21,17 @@
 ### Lab4:
 	- LCD Driver on ATmega32 MCU
 	- Keypad Driver on ATmega32 MCU
+
+### Lab5:
+	- Write a "Learn in depth" message on the LCD
+	using ATmega32 and STM32 MCUs
+
+### Lab6:
+	- LCD Driver on STM32 MCU
+	- Keypad Driver on STM32 MCU
+
+### Lab7:
+	- Program a basic calculator by using the drivers of:
+		- MCAL: DIO
+		- HAL: LCD - KEYPAD
+		using ATmega32 MCU
