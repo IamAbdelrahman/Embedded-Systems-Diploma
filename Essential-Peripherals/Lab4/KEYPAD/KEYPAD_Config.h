@@ -2,7 +2,7 @@
  * Copyright (C) 2024 by Abdelrahman Kamal - Learn-In-Depth Diploma
  *****************************************************************************/
 /**
- * @file LCD_Config.h
+ * @file KEYPAD_Config.h
  * @brief This module contains interface definitions for the
  *  LCD configuration.
  * @author Abdelrahman Kamal
@@ -10,7 +10,7 @@
  */
 
 #ifndef KEYPAD_CONFIG_H
-#define	KEYPAD_CONFIG_H
+#define KEYPAD_CONFIG_H
 
 /**********************************************************************
  * Includes
