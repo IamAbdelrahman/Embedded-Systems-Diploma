@@ -15,7 +15,7 @@
 This basic calculator lab is designed for performing simple arithmetic operations "+, -, * , /".
 
 ## Features
-- Calculating summation, substraction, multiplication, and division operation.
+- Calculating summation, subtraction, multiplication, and division operation.
 - Handling zero-division error.
 - Handling out of range errors.
 - No calculations of float, negative, and large integer numbers.
