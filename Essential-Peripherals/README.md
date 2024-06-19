@@ -27,11 +27,13 @@
 	using ATmega32
 
 ### Lab6:
-	- LCD Driver on STM32 MCU
-	- Keypad Driver on STM32 MCU
-
-### Lab7:
 	- Program a basic calculator by using the drivers of:
 		- MCAL: DIO
 		- HAL: LCD - KEYPAD
 		using ATmega32 MCU
+
+### Lab7:
+	- LCD Driver on STM32 MCU
+	- Keypad Driver on STM32 MCU
+
+
