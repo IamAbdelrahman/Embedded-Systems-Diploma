@@ -33,6 +33,7 @@ This basic calculator lab is designed for performing simple arithmetic operation
 - Proteus Simulation
 - MPLAB X IDE
 - Git
+
 **Peripherals used:**
 - DIO
 
