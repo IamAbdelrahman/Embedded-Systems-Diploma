@@ -109,7 +109,7 @@ second number and the '=' are displayed beside them, then the result is displaye
 
 ## Contact Information
 
-If you have any questions, feedback, or encounter issues while using the Pressure Control System project, please don't hesitate to get in touch with us. We're here to help!
+If you have any questions, feedback, or encounter issues while using the "Basic Calculator" , please don't hesitate to get in touch with me. We're here to help!
 
 - **Email:** abdelruhman.m.kamal@gmail.com
 - [Twitter](https://twitter.com/IAmAbdoKamal)
