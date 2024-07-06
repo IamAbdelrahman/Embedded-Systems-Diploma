@@ -36,4 +36,14 @@
 	- LCD Driver on STM32 MCU
 	- Keypad Driver on STM32 MCU
 
+### Assignment2:
+	- Writing the EXTI driver of STM32 MCU to send a message to the LCD as a result
+	of an external interrupt signal.
+
+### Assignment3:
+	- Writing the EXTI driver of ATmega32 MCU to send a message to the LCD as a result
+	of an external interrupt signal.
+
+
+
 
