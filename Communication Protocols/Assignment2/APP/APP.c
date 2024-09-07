@@ -93,7 +93,7 @@ void APP_Init(void) {
  * Service Name: APP_Start
  * Synatax: void APP_Start(void)
  * Sync/Async: Synchronous
- * Reentrancy: Non reentrant
+ * Reentrancy: Reentrant
  * @description: Start the application
  * PRE-CONDITION: The APP is initialized
  * POST-CONDITION: APP starts
