@@ -38,7 +38,7 @@
 
 /*- GLOBAL TYPEDEFS
 -----------------------------------------------------------------------*/
-typedef _Bool 				boolean;
+typedef _Bool 			boolean;
 typedef unsigned char 		uint8_t;
 typedef signed char 		int8_t;
 typedef signed long 		int32_t;
