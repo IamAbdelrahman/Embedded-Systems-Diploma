@@ -140,5 +140,4 @@ typedef struct {
   vuint32_t GTPR;
 } ST_USART_t;
 
-
 #endif /* STM32F101X8_H_ */
