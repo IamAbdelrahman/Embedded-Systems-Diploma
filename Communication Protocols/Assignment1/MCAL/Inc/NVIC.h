@@ -3,14 +3,14 @@
  *****************************************************************************/
 
 /*****************************************************************************
-* FILE DESCRIPTION
-* ----------------------------------------------------------------------------
-*	@file: NVIC.h
-*	@brief The interface definition for the NVIC core peripheral.
-*
-*	@details This is the header file for the definition of the interface for the NVIC core
-*	peripheral on a standard microcontroller..
-*****************************************************************************/
+ * FILE DESCRIPTION
+ * ----------------------------------------------------------------------------
+ *	@file: NVIC.h
+ *	@brief The interface definition for the NVIC core peripheral.
+ *
+ *	@details This is the header file for the definition of the interface for
+ *      the NVIC core peripheral on a standard microcontroller..
+ *****************************************************************************/
 #ifndef INCLUDES_NVIC_H_
 #define INCLUDES_NVIC_H_
 /*- INCLUDES
@@ -20,15 +20,15 @@
 /*- GLOBAL MACROS
 -----------------------------------------------------------------------*/
 /*- INTERRUPT STATUS */
-#define NVIC_INTERRUPT_ACTIVE 		(1UL)
-#define NVIC_INTERRUPT_INACTIVE 	(0UL)
+#define NVIC_INTERRUPT_ACTIVE   (1UL)
+#define NVIC_INTERRUPT_INACTIVE (0UL)
 
 /*- PRIORITY GROUPS */
-#define NVIC_PRIO_16GRP_0SUBGRP 	(0x300UL)
-#define NVIC_PRIO_8GRP_2SUBGRP 		(0x400UL)
-#define NVIC_PRIO_4GRP_4SUBGRP 		(0x500UL)
-#define NVIC_PRIO_2GRP_8SUBGRP 		(0x600UL)
-#define NVIC_PRIO_0GRP_8SUBGRP 		(0x700UL)
+#define NVIC_PRIO_16GRP_0SUBGRP (0x300UL)
+#define NVIC_PRIO_8GRP_2SUBGRP  (0x400UL)
+#define NVIC_PRIO_4GRP_4SUBGRP  (0x500UL)
+#define NVIC_PRIO_2GRP_8SUBGRP  (0x600UL)
+#define NVIC_PRIO_0GRP_8SUBGRP  (0x700UL)
 
 /*- GLOBAL TYPEDEFS
 -----------------------------------------------------------------------*/
