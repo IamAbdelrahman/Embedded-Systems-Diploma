@@ -71,7 +71,7 @@ __________________________________________________________________
 | Topic 1 | Microcontroller IO Electrical Characteristics|
 | Topic 2 | UART |
 | Topic 3 | SPI |
-| Topic 4| I2C |
+| Topic 4 | I2C |
 __________________________________________________________________
 ## _Unit 9 : Microcontroller Timers/ADC_
 | Title | Topic |
