@@ -1,8 +1,7 @@
 # Microcontroller Hardware Peripherals Course:
 
-## GPIO
-
-## EXTI
+## GPIO - EXTI - USART - SPI - I2C
+## TIMER - ADC
 
 ### Objective:-
 
