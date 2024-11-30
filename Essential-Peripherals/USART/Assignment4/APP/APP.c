@@ -78,7 +78,6 @@ void UART_CallBack(void) {
 void APP_Init(void) {
     ST_UARTConfig_t *const configPtr = UART_ConfigGet();
     configPtr->callBackFunctionUart = UART_CallBack;
-    UART_ConfigGet()->callBackFunctionUart = UART_CallBack;
     IRQ_SetFlags(configPtr->Irq);
     UART_Init(configPtr);
 }
