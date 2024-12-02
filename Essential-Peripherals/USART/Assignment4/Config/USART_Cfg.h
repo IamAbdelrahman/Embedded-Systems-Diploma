@@ -24,7 +24,7 @@
 #define UART_CFG                                                               \
   (ST_UARTConfig_t) {                                                          \
     &GPIOD0, &GPIOD1, NO_PARITY, ONE_STOP_BIT, EIGHT_BITS, TX_RX_MODE,         \
-        BAUD_RATE_115200, UART_IRQ_TXE                                     \
+        BAUD_RATE_115200, UART_IRQ_RXC                                     \
   }
 
 /*- GLOBAL TYPEDEFS
