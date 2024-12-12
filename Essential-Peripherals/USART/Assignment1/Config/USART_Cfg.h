@@ -24,7 +24,7 @@
 #define UART1_CFG                                                              \
   (ST_UARTConfig_t) {                                                          \
     &GPIOA9, &GPIOA10, UART_1, NO_PARITY, ONE_STOP_BIT, EIGHT_BITS,            \
-        SW_FLOW_CTRL, TX_RX_MODE, BAUD_RATE_115200, UART_IRQ_RXNE              \
+        SW_FLOW_CTRL, TX_RX_MODE, BAUD_RATE_115200, UART_IRQ_DISABLE           \
   }
 
 /*- GLOBAL TYPEDEFS
