@@ -31,3 +31,9 @@
 	- Using the ATmega32 to send/receive numbers and strings 
 	by using the polling mechanism.
 
+### Lab3:
+	- Using the ATmega32 to send strings asynchronoulsy to the LCD as it also counts from 1 to 10.
+
+### Lab4:
+	- Using the ATmega32 to receive strings asycnronously from the terminal, and the MCU sends them
+	to be displayed on the LCD.
